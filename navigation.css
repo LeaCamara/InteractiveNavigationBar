@@ -1,0 +1,39 @@
+div#horizontal-navbar {
+  width: 100%;
+  margin: 0 auto;
+}
+
+div#horizontal-navbar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+div#horizontal-navbar ul li {
+  text-align: center;
+  display: inline;
+  width: 25%;
+  float: left;
+  margin-right: .05em;
+}
+
+div#horizontal-navbar ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: .4em;;
+}
+
+li.changebackground {
+  background-color: turquoise;
+}
+
+li.changebackground:hover {
+  background-color: lightblue;
+}
+
+li.changebackground:active {
+  background-color: darkblue;
+}
