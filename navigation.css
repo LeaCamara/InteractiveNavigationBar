@@ -1,6 +1,6 @@
-div#horizontal-navbar {
+body {
   width: 100%;
-  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 div#horizontal-navbar ul {
@@ -11,29 +11,40 @@ div#horizontal-navbar ul {
 div#horizontal-navbar ul li {
   text-align: center;
   display: inline;
-  width: 25%;
+  width: 200px;
   float: left;
-  margin-right: .05em;
+  background-color: gray;
 }
 
 div#horizontal-navbar ul li a {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.1em;
   font-weight: 900;
   text-decoration: none;
-  color: white;
   display: block;
-  padding: .4em;;
+  padding: .4em;
 }
 
-li.changebackground {
-  background-color: turquoise;
+a:visited {
+  color: white;
 }
 
-li.changebackground:hover {
-  background-color: lightblue;
+a:hover {
+  color: lightblue;
 }
 
-li.changebackground:active {
-  background-color: darkblue;
+li.interactive:hover {
+  background-color: red;
+}
+
+/*li#interactive2:hover {*/  /* this one is working! */
+  background-color: red;
+}
+
+li:active {
+  width: 210px;
+}
+
+.clearFloat {
+  clear: both;
+  padding-top: 1.5em;
 }
