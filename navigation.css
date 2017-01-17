@@ -1,0 +1,40 @@
+body#body {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.horizontal-navbar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+div.horizontal-navbar ul li {
+  text-align: center;
+  display: inline;
+  width: 200px;
+  float: left;
+  background-color: gray;
+  padding: 0 10px;
+}
+
+div.horizontal-navbar ul li a {
+  font-size: 1.1em;
+  font-weight: 900;
+  text-decoration: none;
+  display: block;
+  padding: .4em;
+}
+
+a:hover {
+  color: lightseagreen;
+  background-color: lightcyan;
+}
+
+li:active {
+  padding: 0 15px;
+}
+
+.clearFloat {
+  clear: both;
+  padding-top: 1.5em;
+}
